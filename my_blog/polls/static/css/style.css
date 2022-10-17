@@ -1,0 +1,14 @@
+table {
+    font-family: Roboto, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+    background-color:whitesmoke;
+}
+tr:nth-child(even) {
+    background-color:dimgrey
+}
+td, th {
+    border: 1px solid black;
+    text-align:left;
+    padding:7px;
+}
