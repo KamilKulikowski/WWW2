@@ -5,7 +5,7 @@ table {
     background-color:whitesmoke;
 }
 tr:nth-child(even) {
-    background-color:dimgrey
+    background-color:orange;
 }
 td, th {
     border: 1px solid black;

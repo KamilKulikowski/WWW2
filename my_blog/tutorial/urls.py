@@ -6,5 +6,5 @@ from .views import home_view
 urlpatterns = [
    path('', home_view),
    path('admin/', admin.site.urls),
-   path('polls/', include('polls.urls', namespace='polls')),
+   path("polls/", include('polls.urls')),
 ]

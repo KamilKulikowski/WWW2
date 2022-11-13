@@ -17,7 +17,7 @@
             <tr>
                 <td>{{ question.id }}</td>
                 <td><a href="{% url 'polls:question_detail' question.id %}">
-
+                    <a href="{% url 'polls:question-add' %}">Dodaj nowe pytanie</a>
                 {{ question.question_text }}</a>
                 </td>
                 <td>{{question.pub_date}}</td>
